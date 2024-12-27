@@ -1,0 +1,21 @@
+/* test */
+body{
+    /* background-color: blue; */
+ 
+
+}
+.cards{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ /* margin:5%; j'ai enlevé cette margin pour ne pas avoir l'ascenceur horizantal*/ 
+ margin-top: 5%;
+ flex-wrap: wrap;
+ 
+}
+.carte{
+    margin-bottom: 50px;
+}
+.carte img{
+   height: 150px;
+}
